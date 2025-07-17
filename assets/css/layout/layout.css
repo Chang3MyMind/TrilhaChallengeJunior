@@ -1,0 +1,36 @@
+.container {
+  background-color: var(--bg-black);
+  color: var(--text-color);
+  width: 100%;
+  min-width: 1440px;
+  min-height: 720px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.container-white {
+  background-color: var(--bg-white);
+  color: var(--text-color2);
+  width: 100%;
+  min-width: 1440px;
+  min-height: 720px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.col-3-span-8 {
+  grid-column: 2 / span 9;
+  gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: auto 0;
+}
+
+.subgrid-left {
+  grid-column: 1 / span 5;
+}
+
+.subgrid-right {
+  grid-column: 6 / span 5;
+}

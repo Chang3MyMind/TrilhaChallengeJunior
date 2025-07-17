@@ -1,0 +1,94 @@
+/* Header */
+
+.nav-btn button {
+  background-color: var(--btn-principal);
+  color: var(--text-color2);
+  font-weight: bold;
+  border-radius: 64px;
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  padding: 13px 30px;
+  min-width: 182px;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Hero */
+
+.content-btn-hero button {
+  background-color: var(--btn-principal);
+  color: var(--text-color2);
+  font-weight: bold;
+  border-radius: 64px;
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  padding: 17px 30px;
+  min-width: 257px;
+  min-height: 58px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* About */
+
+.content-btn-about button {
+  background-color: var(--btn-principal);
+  color: var(--text-color2);
+  font-weight: bold;
+  border-radius: 64px;
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  padding: 17px 50px;
+  min-width: 254px;
+  min-height: 58px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Pricing */
+
+.content-button-form button {
+  background-color: var(--light-green);
+  color: var(--text-color2);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* FaQ */
+
+.content-header-button button {
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  background-color: var(--light-green);
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contain-btn-collapse button {
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  background-color: var(--bg-black);
+  color: var(--text-color1);
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}

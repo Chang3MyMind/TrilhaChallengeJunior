@@ -1,0 +1,76 @@
+.content-title-pricing {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Container do Formulário */
+.content-pricing {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 8px #00000040;
+  margin: 0 auto;
+  max-width: 900px;
+  grid-column: 1 / -1;
+}
+
+/* O FORMULÁRIO  */
+.content-pricing form {
+  display: grid;
+  gap: 15px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+/* Grupos individuais de label + input */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs e Textarea */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group textarea {
+  width: 100%;
+  padding: 15px 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  color: var(--text-color2);
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #575757;
+}
+
+/* Textarea específico */
+.form-group textarea {
+  resize: none;
+  min-height: 150px;
+}
+
+/* Para agrupar os dois inputs do Budget Range */
+.budget-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+/* Estilos para o Botão */
+.content-button-form {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}

@@ -1,0 +1,9 @@
+/* Propósito: Mudar a aparência de elementos com base em seu estado dinâmico. */
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

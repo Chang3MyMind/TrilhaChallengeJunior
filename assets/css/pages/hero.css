@@ -1,0 +1,35 @@
+.subgrid-left h1,
+p {
+  margin-bottom: 10px;
+}
+
+.content-img-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 385px;
+  position: absolute;
+}
+
+.content-img-hero img {
+  transform: translateY(70px);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 35px;
+  z-index: 1;
+}
+
+.content-img-hero::after {
+  content: "";
+  top: 53px;
+  left: 70px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 35px;
+  background: linear-gradient(to top, var(--light-green), var(--dark-green));
+  transform: rotate(6deg);
+}

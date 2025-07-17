@@ -1,0 +1,74 @@
+/* BASE */
+@import url("base/reset.css");
+@import url("base/variables.css");
+@import url("base/typography.css");
+
+/* LAYOUT */
+@import url("layout/grid.css");
+@import url("layout/layout.css");
+@import url("layout/states.css");
+
+/* MODULES */
+@import url("module/button.css");
+@import url("module/nav.css");
+
+/* PAGES */
+@import url("pages/hero.css");
+@import url("pages/about.css");
+@import url("pages/service.css");
+@import url("pages/projects.css");
+@import url("pages/pricing.css");
+@import url("pages/faq.css");
+@import url("pages/footer.css");
+
+/*Padronização de estilos*/
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color1);
+  background-color: var(--bg-black);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.font-42 {
+  font-size: 42px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-26 {
+  font-size: 26px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-16 {
+  font-size: 14px;
+}
