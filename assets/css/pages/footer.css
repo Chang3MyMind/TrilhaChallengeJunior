@@ -2,14 +2,13 @@
   background-color: var(--bg-black);
   color: var(--text-color);
   width: 100%;
-  min-width: 1440px;
   min-height: 600px;
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
-.col-3-span-8.footer-gap {
+.col-3-span-10.footer-gap {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

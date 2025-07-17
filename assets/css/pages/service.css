@@ -1,11 +1,9 @@
-.col-3-span-8-service {
-  grid-column: 2 / span 9;
+.col-3-span-10-service {
+  grid-column: 2 / span 10;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   gap: 10px;
-  margin: 0 auto;
   align-items: center;
-  margin-bottom: auto;
 }
 
 .content-title-service {

@@ -2,7 +2,6 @@
   background-color: var(--bg-black);
   color: var(--text-color);
   width: 100%;
-  min-width: 1440px;
   min-height: 720px;
   max-width: 100%;
   display: grid;
@@ -13,14 +12,13 @@
   background-color: var(--bg-white);
   color: var(--text-color2);
   width: 100%;
-  min-width: 1440px;
   min-height: 720px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
-.col-3-span-8 {
-  grid-column: 2 / span 9;
+.col-3-span-10 {
+  grid-column: 2 / span 10;
   gap: 14px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -28,9 +26,9 @@
 }
 
 .subgrid-left {
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 6;
 }
 
 .subgrid-right {
-  grid-column: 6 / span 5;
+  grid-column: 7 / span 5;
 }
