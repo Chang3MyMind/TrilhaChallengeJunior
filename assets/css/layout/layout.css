@@ -3,7 +3,6 @@
   color: var(--text-color);
   width: 100%;
   min-height: 720px;
-  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -17,7 +16,7 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
-.col-3-span-10 {
+.main-grid-content {
   grid-column: 2 / span 10;
   gap: 14px;
   display: grid;
@@ -26,9 +25,9 @@
 }
 
 .subgrid-left {
-  grid-column: 1 / span 6;
+  grid-column: 1 / span 5;
 }
 
 .subgrid-right {
-  grid-column: 7 / span 5;
+  grid-column: 6 / span 5;
 }

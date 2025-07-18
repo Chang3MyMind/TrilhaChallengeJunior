@@ -5,10 +5,10 @@ p {
 
 .content-img-hero {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 390px;
-  height: 385px;
+  width: 27vw;
+  height: 26.7vw;
+  max-width: 390px;
+  max-height: 385px;
   position: absolute;
 }
 
@@ -24,7 +24,7 @@ p {
 
 .content-img-hero::after {
   content: "";
-  top: 53px;
+  top: 43px;
   left: 70px;
   position: absolute;
   height: 100%;

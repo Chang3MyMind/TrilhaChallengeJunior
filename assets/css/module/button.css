@@ -26,7 +26,6 @@
   white-space: nowrap;
   text-align: center;
   display: flex;
-  padding: 17px 30px;
   min-width: 257px;
   min-height: 58px;
   align-items: center;
@@ -44,7 +43,6 @@
   white-space: nowrap;
   text-align: center;
   display: flex;
-  padding: 17px 50px;
   min-width: 254px;
   min-height: 58px;
   align-items: center;
@@ -60,7 +58,6 @@
   border: none;
   padding: 15px 30px;
   border-radius: 10px;
-  font-size: 18px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;

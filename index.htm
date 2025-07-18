@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Link do css -->
+    <!-- Link do Css -->
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Links do Javascript -->
+
+    <script type="module" src="assets/js/nav.js"></script>
 
     <title>Na Trilha Dev</title>
   </head>
@@ -16,6 +20,8 @@
           <img src="assets/img/natrilhadev.png" alt="LogoNaTrilhaDev  " />
         </div>
         <div class="nav-content">
+          <div class="Overlay"></div>
+          <div class="MenuIcon">&#9776;</div>
           <ul class="menu-links">
             <li class="font-18"><a href="#hero">Home</a></li>
             <li class="font-18"><a href="#portfolio">Portfolio</a></li>
@@ -32,7 +38,7 @@
     <main>
       <section id="hero">
         <div class="container container-hero">
-          <div class="col-3-span-10">
+          <div class="main-grid-content">
             <div class="subgrid-left">
               <h1 class="font-42">
                 Trusted by Leaders: Building Lasting Partnerships Through Design
@@ -59,7 +65,7 @@
       </section>
       <section id="about">
         <div class="container-white container-about">
-          <div class="col-3-span-10">
+          <div class="main-grid-content">
             <div class="subgrid-left">
               <div class="content-img-about">
                 <img
@@ -93,7 +99,7 @@
           <div class="content-title-service">
             <h2 class="font-36">Lorem Ipsum</h2>
           </div>
-          <div class="col-3-span-10 -service">
+          <div class="main-grid-content-service">
             <div class="subgrid-service-left">
               <div class="content-service-box">
                 <div class="content-left-service">
@@ -159,7 +165,7 @@
       </section>
       <section id="portfolio">
         <div class="container-white container-portfolio">
-          <div class="col-3-span-10">
+          <div class="main-grid-content">
             <div class="content-title-portfolio">
               <h2 class="font-32">Meu Portfólio</h2>
             </div>
@@ -206,7 +212,7 @@
       </section>
       <section id="pricing">
         <div class="container-white container-pricing">
-          <div class="col-3-span-10">
+          <div class="main-grid-content">
             <div class="content-title-pricing">
               <h2 class="font-32">
                 Transform Ideas into Impactful Designs Let's Start Today
@@ -286,7 +292,9 @@
                 </div>
 
                 <div class="content-button-form">
-                  <button type="submit">Collaborate With Me</button>
+                  <button type="submit" class="font-18">
+                    Collaborate With Me
+                  </button>
                 </div>
               </form>
             </div>
@@ -295,7 +303,7 @@
       </section>
       <section id="faq">
         <div class="container-white container-faq">
-          <div class="col-3-span-10">
+          <div class="main-grid-content">
             <div class="content-card-title">
               <h2 class="font-32">
                 Clear Answers to your Questions, Ensuring a Smooth Design
@@ -316,12 +324,12 @@
                         class="bt-collapse"
                         data-target="#collapse"
                       >
-                        &#9650;
+                        <span class="arrow-icon">&#9650;</span>
                       </button>
                     </div>
                   </div>
                   <div class="content-card-description">
-                    <p>
+                    <p class="font-18">
                       The process begins with an initial consultation where we
                       discuss your project goals. I then provide design
                       concepts, followed by revisions based on your feedback.
@@ -345,7 +353,7 @@
                                 type="button"
                                 class="btn-collapse-content"
                               >
-                                &#9650;
+                                <span class="arrow-icon">&#9650;</span>
                               </button>
                             </div>
                           </div>
@@ -364,7 +372,7 @@
                                   type="button"
                                   class="btn-collapse-content"
                                 >
-                                  &#9650;
+                                  <span class="arrow-icon">&#9650;</span>
                                 </button>
                               </div>
                             </div>
@@ -383,7 +391,7 @@
                                   type="button"
                                   class="btn-collapse-content"
                                 >
-                                  &#9650;
+                                  <span class="arrow-icon">&#9650;</span>
                                 </button>
                               </div>
                             </div>
@@ -402,7 +410,7 @@
                                   type="button"
                                   class="btn-collapse-content"
                                 >
-                                  &#9650;
+                                  <span class="arrow-icon">&#9650;</span>
                                 </button>
                               </div>
                             </div>
@@ -422,7 +430,7 @@
                                   type="button"
                                   class="btn-collapse-content"
                                 >
-                                  &#9650;
+                                  <span class="arrow-icon">&#9650;</span>
                                 </button>
                               </div>
                             </div>
@@ -440,7 +448,7 @@
     </main>
     <footer>
       <div class="container-footer">
-        <div class="col-3-span-10 footer-gap">
+        <div class="main-grid-content footer-gap">
           <div class="content-follow">
             <div class="follow-text">
               <h2 class="font-24">Follow Us</h2>

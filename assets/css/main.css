@@ -21,6 +21,9 @@
 @import url("pages/faq.css");
 @import url("pages/footer.css");
 
+/* Responsividade */
+@import url("layout/breakpoints.css");
+
 /*Padronização de estilos*/
 body {
   font-family: "Poppins", sans-serif;
@@ -37,38 +40,39 @@ h4 {
   font-weight: 600;
 }
 
+/* base/typography.css */
+
 .font-42 {
-  font-size: 42px;
+  /* MIN: 18px (para telas pequenas) | PREF: 2.9vw (escala com tela) | MAX: 42px (para telas grandes) */
+  font-size: clamp(18px, 2.9vw, 42px);
 }
 
 .font-36 {
-  font-size: 36px;
+  /* MIN: 16px | PREF: 2.5vw (proporcional ao 42px) | MAX: 36px */
+  font-size: clamp(16px, 2.5vw, 36px);
 }
 
 .font-32 {
-  font-size: 32px;
-}
-
-.font-26 {
-  font-size: 26px;
+  /* MIN: 15px | PREF: 2.2vw | MAX: 32px */
+  font-size: clamp(15px, 2.2vw, 32px);
 }
 
 .font-24 {
-  font-size: 24px;
+  /* MIN: 13px | PREF: 1.7vw | MAX: 24px */
+  font-size: clamp(13px, 1.7vw, 24px);
 }
 
 .font-22 {
-  font-size: 22px;
+  /* MIN: 12px | PREF: 1.5vw | MAX: 22px */
+  font-size: clamp(12px, 1.5vw, 22px);
 }
 
 .font-18 {
-  font-size: 18px;
+  /* MIN: 11px | PREF: 1.25vw | MAX: 18px */
+  font-size: clamp(11px, 1.25vw, 18px);
 }
 
-.font-16 {
-  font-size: 16px;
-}
-
-.font-16 {
-  font-size: 14px;
+.font-14 {
+  /* MIN: 9px | PREF: 1vw | MAX: 14px */
+  font-size: clamp(9px, 1vw, 14px);
 }
