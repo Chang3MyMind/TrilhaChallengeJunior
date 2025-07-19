@@ -41,6 +41,9 @@
 
 .icon {
   display: flex;
+}
+
+.icon a {
   width: 48px;
   height: 48px;
   box-sizing: border-box;
@@ -48,6 +51,7 @@
   border-radius: 12px;
 }
 
-.icon img {
-  padding: 6px;
+.icon a svg {
+  padding: 4px;
+  height: 40px;
 }

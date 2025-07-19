@@ -1,9 +1,142 @@
-/* Propósito: Mudar a aparência de elementos com base em seu estado dinâmico. */
-
-.show {
-  display: block;
+.hidden {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease, opacity 0.8s ease;
 }
 
-.hide {
-  display: none;
+.show {
+  margin-bottom: 40px;
+  max-height: 700px;
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 2.2s ease, opacity 2.2s ease;
+}
+
+.arrow-icon {
+  display: inline-block; /* Garante que o transform funcione */
+  transition: transform 0.3s ease; /* Para uma rotação suave */
+}
+
+/* Animação dos itens do menu */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animação das redes sociais */
+
+.icon a:hover {
+  background-color: var(--accent-color);
+  fill: white;
+}
+
+.icon a::before {
+  content: attr(data-social);
+  position: absolute;
+  background-color: var(--accent-color);
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 100px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(60px) translateX(-25px);
+  opacity: 0;
+  transition: 200ms ease;
+}
+
+.icon a::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid var(--accent-color);
+  transform: translateY(55px) translateX(-33px) rotate(180deg);
+  opacity: 0;
+  transition: 200ms ease;
+}
+
+.icon a:hover::before {
+  opacity: 1;
+}
+
+.icon a:hover::after {
+  opacity: 1;
+}
+
+/* Animação dos botões */
+
+.nav-btn button:hover {
+  box-shadow: inset 260px 0 0 0 var(--light-green);
+  cursor: pointer;
+}
+
+/* Borda RGB animada */
+.content-btn-hero button::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet,
+    red
+  );
+  background-size: 400%;
+  z-index: -1;
+  border-radius: 64px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  animation: rgb-border 3s linear infinite;
+}
+
+/* Exibe a borda RGB animada no hover */
+.content-btn-hero button:hover::before {
+  opacity: 1;
+}
+
+/* Apenas muda a cor do texto e remove a borda sólida visível */
+.content-btn-hero button:hover {
+  color: white;
+  border-color: transparent;
+}
+
+/* Animação da borda RGB */
+@keyframes rgb-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 400% 50%;
+  }
+}
+
+/* about */
+
+.content-btn-about button:hover {
+  box-shadow: inset 260px 0 0 0 rgb(15, 253, 15);
+  cursor: pointer;
+}
+
+/* pricing */
+
+.content-button-form button:hover {
+  box-shadow: inset 240px 0 0 0 rgb(127, 248, 127);
+  cursor: pointer;
 }
