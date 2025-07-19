@@ -1,25 +1,3 @@
-.main-grid-content-service {
-  grid-column: 2 / span 10;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  gap: 10px;
-  align-items: center;
-}
-
-.content-title-service {
-  margin-top: auto;
-  grid-column: 1 / -1;
-  text-align: center;
-}
-
-.subgrid-service-left {
-  grid-column: 1 / span 7;
-}
-
-.subgrid-service-right {
-  grid-column: 8 / span 3;
-}
-
 /* Espaço da esquerda */
 
 .content-service-box {

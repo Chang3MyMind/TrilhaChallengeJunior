@@ -3,15 +3,6 @@ p {
   margin-bottom: 10px;
 }
 
-.subgrid-left-hero {
-  grid-column: 1 / span 6;
-  margin-top: 20px;
-}
-
-.subgrid-right-hero {
-  grid-column: 7 / span 4;
-}
-
 .content-img-hero {
   display: flex;
   width: 27vw;

@@ -15,19 +15,3 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-
-.main-grid-content {
-  grid-column: 2 / span 10;
-  gap: 14px;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  margin: auto 0;
-}
-
-.subgrid-left {
-  grid-column: 1 / span 5;
-}
-
-.subgrid-right {
-  grid-column: 6 / span 5;
-}

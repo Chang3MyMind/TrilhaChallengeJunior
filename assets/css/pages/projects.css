@@ -3,14 +3,6 @@
   text-align: start;
 }
 
-.content-img-grupe {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  grid-column: 1 / -1;
-  margin-top: 20px;
-}
-
 .content-img-portfolio {
   display: flex;
   justify-content: center;
