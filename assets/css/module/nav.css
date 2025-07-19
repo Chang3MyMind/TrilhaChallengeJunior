@@ -46,3 +46,16 @@ nav a {
   font-weight: bold;
   color: var(--text-color1);
 }
+
+nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 80%;
+  border-radius: 40px;
+  margin: 15px auto auto auto;
+  background-color: var(--bg-black);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}

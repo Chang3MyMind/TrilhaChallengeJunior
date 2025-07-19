@@ -1,5 +1,17 @@
 /* Responsividade */
 
+@media (max-width: 1366px) {
+  nav.fixed {
+    max-width: 93%;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav.fixed {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   /* Layout */
 
